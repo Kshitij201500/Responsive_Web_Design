@@ -7,6 +7,9 @@
 }
 
 
+  
+
+
 @media ((min-width: 768px)) {
   .sidenav{
     width:300px;
@@ -23,13 +26,16 @@
     border-right: 1px solid #eee;
     display: flex;
   }
-  .content{
+  #content{
     position: absolute;
     left:288px;
+    width: 81%;
   }
-
+  .prof-link{
+    display: flex;
+    justify-content:end ;
+  }
 }
-
 .nav-head{
   padding: 8px;
 }
@@ -59,6 +65,7 @@
 }
 .list-name{
   padding:0px 16px;
+  cursor: pointer;
 }
 
 
